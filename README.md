@@ -1,0 +1,1 @@
+STM32 startup code with vector table, memory initialization (FLASH/SRAM), and linker script. Handles reset sequence, copies .data to RAM, clears .bss, sets stack/heap. Includes weak IRQ handlers, processor fault detection, and memory protection. Configures 512KB Flash/128KB SRAM with proper section alignment for embedded applications
